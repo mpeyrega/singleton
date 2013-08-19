@@ -29,7 +29,7 @@ Mere* Mere::build(int entier) {
 
 Mere::~Mere() {
 	alreadyCreated = false;
-	delete mere;
+	//delete mere;
 	mere = NULL;
 }
 
