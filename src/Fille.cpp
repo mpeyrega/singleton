@@ -10,7 +10,7 @@
 
 Mere* Fille::build() {
 	if (alreadyCreatedFille) {
-		return getMere();
+		return mere;
 	} else {
 		if (alreadyCreated) {
 			delete mere;
@@ -18,6 +18,7 @@ Mere* Fille::build() {
 		}
 		mere = Mere::build(3);
 		alreadyCreated = true;
+		alreadyCreatedFille = true;
 		return mere;
 	}
 }
